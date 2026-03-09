@@ -1,5 +1,4 @@
 #include "pwm_controller.hpp"
-#include "stdio.h"
 
 PwmController::PwmController(TIM_HandleTypeDef* htim, uint32_t channel)
     : m_htim(htim), m_channel(channel), m_is_initialized(0), m_timer_clock(0), m_prescaler(0), m_timer_freq(0) {

@@ -3,7 +3,6 @@
 
 #include "tim.h"
 
-
 class PwmController {
 
     public:
